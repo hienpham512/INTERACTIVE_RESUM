@@ -1,0 +1,26 @@
+.col {
+    width: 40%;
+    background-color: #f48fb1;
+    border-radius: 10px;
+    height: 50%;
+    margin-bottom: 30%;
+    margin-left: 50%;
+    margin-top: 10%;
+    left: 30px;
+}
+
+.col1 {
+    width: 40%;
+    background-color: #f48fb1;
+    border-radius: 10px;
+    height: 50%;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    margin-top: 10%;
+    left: 30px;
+}
+
+.epitech-logo {
+    height: auto;
+    width: 30%;
+}

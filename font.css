@@ -1,0 +1,35 @@
+@font-face {
+    font-family: kidsOnTheMoon;
+    src: url(KidsOnTheMoon.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: humberger;
+    src: url(Hamberger-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: jandaBubble;
+    src: url(JandaManateeBubble.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: jandaSoild;
+    src: url(JandaManateeSolid.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: dayden;
+    src: url(DaydenBatemisy.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: rose;
+    src: url(Rose\ Velt\ Personal\ Use\ Only.ttf);
+    font-weight: bold;
+}

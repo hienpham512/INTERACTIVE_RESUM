@@ -1,0 +1,286 @@
+@media (max-width: 767px) {
+    .uno-detail, .market-detail {
+        background-color: #f48fb1;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .uno-description {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uno-photo {
+        content:url(https://www.pngkey.com/png/full/110-1108582_u-s-uno-play-card-game-new.png);
+        height: 1%;
+        width: 20%;
+    }
+
+    .market-description {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .market-photo {
+        content:url(https://raw.githubusercontent.com/hienpham512/INT_MARKET/master/vue/photo_specific/logo.png);
+        height: 1%;
+        width: 20%;
+    }
+
+    .nav-fix {
+        right: 0;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        height: auto;
+        z-index: 2;
+        overflow: hidden;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        gap: 30px;
+    }
+    
+    .nav-fix a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: jandaSoild;
+        color: white;
+    }
+
+    .contact {
+        margin-left: 50px;
+        border-radius: 20px;
+        width: 65%;
+        text-align: center;
+        background-color: #f48fb1;
+    }
+}
+
+@media (min-width: 768px) {
+    .uno-detail, .market-detail {
+        background-color: #f48fb1;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .uno-description {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .uno-photo {
+        content:url(https://www.pngkey.com/png/full/110-1108582_u-s-uno-play-card-game-new.png);
+        height: auto;
+        width: 25%;
+    }
+
+    .market-description {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .market-photo {
+        content:url(https://raw.githubusercontent.com/hienpham512/INT_MARKET/master/vue/photo_specific/logo.png);
+        height: auto;
+        width: 25%;
+    }
+    
+    .nav-fix {
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 5%;
+        height: auto;
+        z-index: 2;
+        overflow: hidden;
+        background-color: black;
+        width: 5%;
+        text-align: center;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+    
+    .nav-fix:hover  {
+        transform-origin: top right;
+        transform: scale(1.5);
+    }
+    
+    .nav-fix a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: jandaSoild;
+        color: white;
+    }
+    
+    .contact {
+        right: 0;
+        top: 50%;
+        overflow: hidden;
+        height: auto;
+        z-index: 2;
+        position: fixed;
+        width: 25%;
+    }
+}
+
+h2 {
+    font-family: humberger;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+label {
+    font-family: jandaSoild;
+    font-size: auto;
+    color: #455a64;
+}
+
+input[type=submit]:hover, a:hover {
+    transform: scale(1.5);
+    color: #fce4ec;
+}
+
+input[type=submit]:hover {
+    font-family: jandaSoild;
+    background-color: black;
+}
+
+input[type=submit] {
+    font-family: jandaBubble;
+    background-color: white;
+    width: 30%;
+}
+
+p, li {
+    font-family: rose;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+.title_resum {
+    display: flex;
+    justify-content: center;
+}
+
+.title_resume {
+    font-family: humberger;
+}
+
+.name_resume {
+    font-family: JandaSoild;
+    font-size: 500%;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    z-index: 2;
+}
+
+#block {
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 65%;
+    text-align: center;
+}
+
+#block:hover {
+    transform: scale(1.1);
+}
+
+.hello {
+    height: auto;
+    width: 10%;
+    margin-top: 0%;
+    position: relative;
+    z-index: 0;
+    animation-name: bear_hello;
+    animation: bear_hello 4s infinite;
+}
+
+.start {
+    content: url(http://ajagym-montaigu.fr/images/Club/42845.png);
+    height: 10%;
+    width: 10%;
+}
+
+.web-sofware {
+    margin-left: 15%;
+}
+
+.name-sofware {
+    font-size: 18px;
+}
+
+.list-starts {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.block-about-me {
+    background-color: #f48fb1;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.about-me-global {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer {
+    background-color: #880e4f ;
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+.my-photo {
+    content: url(myPhoto.JPG);
+    width: 40%;
+    opacity: 0.8;
+    height: 30%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.in-photo {
+    content: url(https://icon-library.com/images/linkedin-icon-vector-white/linkedin-icon-vector-white-12.jpg);
+    width: 10%;
+}
+
+.mail-photo {
+    content: url(https://icon-library.com/images/email-icon-png-black/email-icon-png-black-19.jpg);
+    width: 10%;
+}
+
+.phone-photo {
+    content: url(https://www.pngkey.com/png/full/431-4314532_telephone-vector-partie-d-un-tlphone.png);
+    width: 10%;
+}
+
+.github-photo {
+    content: url(https://www.pngkey.com/png/full/178-1787134_png-file-svg-github-icon-png.png);
+    width: 10%;
+}
+
+@keyframes bear_hello {
+    0%   {background-color:none; left:0px; top:0px;}
+    50%  {background-color:none; left:50px; top:0px;}
+    100% {background-color:none; left:0px; top:0px;}
+}

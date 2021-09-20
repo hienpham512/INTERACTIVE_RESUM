@@ -1,0 +1,89 @@
+.cloud1 {
+    content:url(https://stock.flashmode.tn/wp-content/uploads/2020/06/cloud-clipart-transparent-background-png-393.png);
+    height: auto;
+    width: 10%;
+    position: relative;
+    animation-name: cloud_drop1;
+    animation: cloud_drop1 10s linear 1s infinite alternate;
+    z-index: 0;
+}
+
+.cloud2 {
+    content:url(https://stock.flashmode.tn/wp-content/uploads/2020/06/cloud-clipart-transparent-background-png-393.png);
+    height: auto;
+    width: 40%;
+    position: relative;
+    animation-name: cloud_drop2;
+    animation: cloud_drop2 20s linear 1s infinite alternate;
+    z-index: 0;
+}
+
+.cloud3 {
+    content:url(https://stock.flashmode.tn/wp-content/uploads/2020/06/cloud-clipart-transparent-background-png-393.png);
+    height: auto;
+    width: 25%;
+    position: relative;
+    animation-name: cloud_drop3;
+    animation: cloud_drop3 12s linear 1s infinite alternate;
+    z-index: 0;
+}
+
+.cloud4 {
+    content:url(https://stock.flashmode.tn/wp-content/uploads/2020/06/cloud-clipart-transparent-background-png-393.png);
+    height: auto;
+    width: 25%;
+    position: relative;
+    animation-name: cloud_drop4;
+    animation: cloud_drop4 7s linear 1s infinite alternate;
+    z-index: 0;
+}
+
+.cloud5 {
+    content:url(https://stock.flashmode.tn/wp-content/uploads/2020/06/cloud-clipart-transparent-background-png-393.png);
+    height: auto;
+    width: 25%;
+    position: relative;
+    animation-name: cloud_drop5;
+    animation: cloud_drop5 10s linear 1s infinite alternate;
+    z-index: 0;
+}
+
+.cloud6 {
+    content:url(https://stock.flashmode.tn/wp-content/uploads/2020/06/cloud-clipart-transparent-background-png-393.png);
+    height: auto;
+    width: 25%;
+    position: relative;
+    animation-name: cloud_drop6;
+    animation: cloud_drop6 5s linear 1s infinite alternate;
+    z-index: 0;
+}
+
+@keyframes cloud_drop1 {
+    0%   {background-color:none; left:0%; top:0px;}
+    100%  {background-color:none; left:70%; top:0px;}
+}
+
+@keyframes cloud_drop2 {
+    0%   {background-color:none; left:0%; top:0px;}
+    100%  {background-color:none; left:60%; top:0px;}
+}
+
+@keyframes cloud_drop3 {
+    0%   {background-color:none; left:0%; top:0px;}
+    100%  {background-color:none; left:70%; top:0px;}
+}
+
+@keyframes cloud_drop4 {
+    0%   {background-color:none; left:10%; top:0px;}
+    100%  {background-color:none; left:70%; top:0px; }
+}
+
+@keyframes cloud_drop5 {
+    0%   {background-color:none; left:15%; top:0px;}
+    100%  {background-color:none; left:70%; top:0px;}
+}
+
+@keyframes cloud_drop6 {
+    0%   {background-color:none; left:5%; top:0px;}
+    100%  {background-color:none; left:70%; top:0px;}
+}
